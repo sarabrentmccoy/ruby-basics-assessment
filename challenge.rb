@@ -70,6 +70,7 @@ while answer != age
   puts 'How old am I?'
   answer = gets.chomp.to_i
   if answer > (age + 10)
+
     puts "aaaah maaan c'mon, huh, WTF. You have #{max_guesses-guesses} tries left"
     break
   end
